@@ -1,0 +1,23 @@
+.float-area{
+    height:10vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .floating-img{
+    transform: translateY(-10%);
+    animation: floater 5s infinite;
+    transition: ease 0.5s;
+    width: auto;
+    height:auto;
+  }
+  
+  
+  
+  @keyframes floater {
+    0%{transform: translateY(-10%);transition: ease 0.5s;}
+    50%{transform: translateY(10%);transition: ease 0.5s;}
+  }
+  
